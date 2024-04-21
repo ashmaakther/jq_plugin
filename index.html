@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jq_plugin</title>
+    <!-- plugin links -->
+    <link rel="stylesheet" href="vendor/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="vendor/wow-js/animate.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+   
+</head>
+  <body>
+
+    <!-- counter up -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="wrapper text-center">
+            <h2>Number of projects</h2>
+            <h3 class="counter">12345</h3>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper text-center">
+            <h2>Number of projects</h2>
+            <h3 class="counter">12345</h3>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="wrapper text-center">
+            <h2>Number of projects</h2>
+            <h3 class="counter">12345</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <!-- mix it up -->
+    <section class="">
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <a href="#" data-filter="all" class="btn btn-primary">All</a>
+              <a href="#" data-filter=".web" class="btn btn-secondary">Web design</a>
+              <a href="#" data-filter=".dev" class="btn btn-warning">Web development</a>
+              <a href="#" data-filter=".wp" class="btn btn-danger">Wordpress</a>
+
+              <a class="btn btn-dark" data-sort="order:asc">Ascending</a>
+              <a class="btn btn-dark" data-sort="order:descending">Descending</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3" id="hello">
+         <div class="col-lg-3 mix web mb-3" data-order="1">
+          <div class="d_img">
+            <img src="images/demo1.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+         <div class="col-lg-3 mix web mb-3" data-order="2">
+          <div class="d_img">
+            <img src="images/demo2.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+         <div class="col-lg-3 mix dev mb-3" data-order="3">
+          <div class="d_img">
+            <img src="images/demo3.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+         <div class="col-lg-3 mix dev mb-3" data-order="4">
+          <div class="d_img">
+            <img src="images/demo4.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+         <div class="col-lg-3 mix wp mb-3" data-order="5">
+          <div class="d_img">
+            <img src="images/demo5.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+         <div class="col-lg-3 mix wp mb-3" data-order="6">
+          <div class="d_img">
+            <img src="images/demo6.jpg" class="w-100" alt="demo">
+          </div>
+         </div>
+
+        </div>
+       </div>
+    </section>
+
+    <hr>
+    <!-- light box -->
+    <section>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3">
+            <div class="lb_img">
+              <a href="images/demo7.jpg" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="images/demo1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="lb_img">
+              <a href="images/demo7.jpg" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="images/demo1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="lb_img">
+              <a href="images/demo7.jpg" class="w-100" data-lightbox="i_img" data-title="My caption">
+                <img src="images/demo1.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <!-- wow js -->
+    <section>
+      <div class="container">
+
+      </div>
+    </section>
+
+    <section class="box bg-dark wow slideInDown" data-wow-duration="1s" data-wow-delay=".50s"></section>
+    <section class="box bg-danger wow slideInDown" data-wow-duration="1s"></section>
+    <section class="box bg-dark wow slideInDown" data-wow-duration="1s"></section>
+
+ 
+    
+    
+    
+    
+    <!-- script links -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- plugin links -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendor/mixitup/mixitup.min.js"></script>
+    <script src="vendor/lightbox/js/lightbox.min.js"></script>
+    <script src="vendor/wow-js/wow.min.js"></script>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
